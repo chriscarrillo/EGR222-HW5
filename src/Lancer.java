@@ -4,13 +4,13 @@ import java.util.*;
 /**
  * Created by Chris on 10/29/16.
  */
-public class LancerChris extends Critter {
+public class Lancer extends Critter {
     private Color colors[] = {Color.RED, Color.BLUE, Color.GRAY, Color.MAGENTA};
     private int count;
     private int index;
     private String chars[] = {":D", ":)", ":|", ":("};
 
-    public LancerChris() {
+    public Lancer() {
         this.count = 0;
         this.index = 0;
     }
